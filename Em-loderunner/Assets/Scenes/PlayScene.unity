@@ -321,7 +321,7 @@ GameObject:
   - component: {fileID: 885920824}
   - component: {fileID: 885920823}
   m_Layer: 0
-  m_Name: Particle-Dot-Rain
+  m_Name: Particle-Dot-Ash
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
