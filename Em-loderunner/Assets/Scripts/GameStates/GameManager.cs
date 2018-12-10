@@ -37,8 +37,8 @@ public class GameManager : MonoBehaviour {
 		TextAsset currentLevelFile = allLevels[currentLevelIndex];
 		levelLoader.loadLevel(currentLevelFile.text);
 		_mainPlayer = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMovement>();
-        Camera.main.transform.parent = _mainPlayer.transform;
-        Camera.main.transform.localPosition = new Vector3(0, 0, -10);
+        //Camera.main.transform.parent = _mainPlayer.transform;
+        //Camera.main.transform.localPosition = new Vector3(0, 0, -10);
 		_exitObj = GameObject.FindGameObjectWithTag("Exit");
 		if (_exitObj != null) {
 			_exitObj.SetActive(false);

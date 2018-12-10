@@ -126,6 +126,7 @@ GameObject:
   - component: {fileID: 519420030}
   - component: {fileID: 519420034}
   - component: {fileID: 519420033}
+  - component: {fileID: 519420035}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -4805,6 +4806,19 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
+--- !u!114 &519420035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fd9f8a0f8d6941dfade4334ccce0503, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetObject: {fileID: 0}
+  followSpeed: 10
 --- !u!1 &743918893
 GameObject:
   m_ObjectHideFlags: 0
@@ -4939,13 +4953,13 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 891072511}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_EffectColor: {r: 0.036489826, g: 0.037482005, b: 0.03773582, a: 1}
-  m_EffectDistance: {x: 4, y: 4}
+  m_EffectDistance: {x: 1, y: 1}
   m_UseGraphicAlpha: 1
 --- !u!114 &891072514
 MonoBehaviour:
@@ -5353,12 +5367,12 @@ MonoBehaviour:
     <size=36>ENTER</size>'
   gameOverString: 'Game Over!
 
-    <size=32>Press Enter to retry. Press Escape to quit.</size>'
-  levelCompleteString: 'You did it!
+    <size=36>ENTER to retry. ESC to quit.</size>'
+  levelCompleteString: 'You did it!!
 
     <size=36>ENTER for next stage. ESC to Quit.</size>'
-  allLevelsCompleteString: 'You survived! Game complete!
+  allLevelsCompleteString: 'You survived!! Game complete!
 
     <size=36>Press Enter to quit.</size>'
-  coinsString: 'Hearts: {0}/{1}'
-  allCoinsCollectedString: ' (go to the exit!)'
+  coinsString: 'Hearts: {0}/{1}  '
+  allCoinsCollectedString: '  ESCAPE THE STORM'
