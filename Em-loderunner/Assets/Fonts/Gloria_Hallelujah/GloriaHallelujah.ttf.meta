@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 07e6407d0d71f431e949e5a3c8b32d9c
+guid: 89e5de4c52dc341ce87e925b87066c0d
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -8,12 +8,12 @@ TrueTypeFontImporter:
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
-  fontName: Kalam
+  fontName: Gloria Hallelujah
   fontNames:
-  - Kalam
+  - Gloria Hallelujah
   fallbackFontReferences: []
   customCharacters: 
-  fontRenderingMode: 2
+  fontRenderingMode: 1
   ascentCalculationMode: 1
   useLegacyBoundsCalculation: 0
   shouldRoundAdvanceValue: 1
