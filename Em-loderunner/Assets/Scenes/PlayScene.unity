@@ -9975,15 +9975,13 @@ MonoBehaviour:
   coinsCollectedText: {fileID: 891072514}
   startLevelString: 'Stage {0}
 
-    <size=36>ENTER</size>'
-  gameOverString: 'Game Over!
+    <size=36>ENTER the storm</size>'
+  gameOverString: 'Oh no! The storm caught you!
 
-    <size=36>ENTER to retry. ESC to quit.</size>'
+    <size=40>ENTER to retry or ESC to Quit</size>'
   levelCompleteString: 'You did it!!
 
-    <size=36>ENTER for next stage. ESC to Quit.</size>'
-  allLevelsCompleteString: 'You survived!! Game complete!
-
-    <size=36>ENTER to quit.</size>'
-  coinsString: 'Hearts: {0} of {1}  '
-  allCoinsCollectedString: '  ESCAPE THE STORM'
+    <size=40>ENTER for the next stage or ESC to Quit</size>'
+  allLevelsCompleteString: "You survived!! \n<size=36>ENTER to do it all over again</size>"
+  coinsString: 'Hearts: {0} of {1}'
+  allCoinsCollectedString: ESCAPE THE STORM

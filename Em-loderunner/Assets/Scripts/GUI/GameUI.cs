@@ -51,7 +51,7 @@ public class GameUI : MonoBehaviour {
 
 		coinsCollectedText.text = string.Format(coinsString, coinsCollected, maxCoins);
 		if (coinsCollected >= maxCoins) {
-			coinsCollectedText.text += allCoinsCollectedString;
+			coinsCollectedText.text = allCoinsCollectedString;
 		}
 	}
 }
